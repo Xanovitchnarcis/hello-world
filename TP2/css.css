@@ -25,15 +25,19 @@
 /*Pc */
 @media only screen and (min-width : 1224px){
 
+#p1 {
+	background-color: green;
+
+}
 
 }
 
 /*Tablettes*/
 @media (max-width: 768px) {
-overflow-y: hidden;
-	
-background-color: yellow;
+#p1 {
+	background-color: green;
 
+}
 	
 
 }
