@@ -34,19 +34,25 @@
 
 }
 
+
 /*Tablettes*/
 @media (max-width: 768px) {
-#p1 {
-	background-color: yellow;
+	#p1 {
+		background-color: yellow;
 
-}
-	
+	}
 
+	*{
+		overflow:hidden;
+
+
+	} 
 }
 
 /*Smartphones */
 @media (max-width: 321px) {
-background-color: yellow;
+
+
 }
 
 
