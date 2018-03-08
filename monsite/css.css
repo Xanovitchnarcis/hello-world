@@ -173,7 +173,7 @@ body{
 	} 
 
 	body {
-		background-color: red; /*je change la couleur pour voir la différence quand je change de résolution */
+		background-color: green; /*je change la couleur pour voir la différence quand je change de résolution */
 		font-size:1rem;
 		
 
@@ -181,7 +181,7 @@ body{
 
 	#header {
 		background-color: #949595;
-		height: 0.5rem;
+		height: 9rem;
 		margin:none;
 		display: block;
 	}
@@ -198,6 +198,16 @@ body{
 	text-align: left;
 	margin-left: 1rem;
 
+	}
+
+	.trait
+    {
+	   display:none;
+    }
+
+	.inscription {
+		padding-left: 0rem;
+		margin-top:0rem;
 	}
 
 /* petit Smartphones  */
