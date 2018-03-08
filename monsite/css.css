@@ -178,14 +178,6 @@ body{
 !!!  Medias queries  !!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/*Pc */
-@media only screen and (min-width : 1224px){
-
-	body {
-		background-color: green; //je change la couleur pour voir la différence quand je change de résolution
-
-	}
-}
 
 
 /*Tablettes + mobiles*/
@@ -193,6 +185,7 @@ body{
 
 	*{
 		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
+		overflow-y: auto;
 	} 
 
 	body {
