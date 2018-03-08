@@ -174,14 +174,14 @@ body{
 
 	body {
 		background-color: red; /*je change la couleur pour voir la différence quand je change de résolution */
-		font-size:0.5rem;
+		font-size:1rem;
 		
 
 	}
 
 	#header {
 		background-color: #949595;
-		height: 3rem;
+		height: 0.5rem;
 		margin:none;
 		display: block;
 	}
