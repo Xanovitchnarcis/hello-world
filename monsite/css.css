@@ -1,0 +1,231 @@
+#p1 {
+	
+
+}
+
+#p2 {
+	
+
+}
+
+#p3 {
+	
+
+}
+
+
+
+#header {
+	background-color: #949595;
+	height: 7rem;
+	margin:none;
+	display: block;
+}
+
+#header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-top: -2.5rem;
+    padding-right: 16rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+        
+}
+
+#header li {
+    float: right;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#header li a:hover {
+    background-color: #949595;
+}
+
+#header form {
+	text-align: right;
+	display: block;
+	margin-top: -2.7rem;
+	margin-right: 1rem;
+
+
+}
+
+h1 {
+	font-size:3rem;
+	text-align: left;
+	margin-left: 5rem;
+}
+
+#header img {
+	width:6rem;
+	margin-left: 4rem;
+	display: block;
+}
+
+#imgdefond img {
+	height:40rem;
+	width: 100%;
+	margin:auto;
+	display: block;
+}
+
+
+body{
+	font-size:1rem;
+	background-color: #949595;
+	margin:1rem;
+
+}
+
+#texte a{
+	font-size:1.20rem;
+	display: block;
+	margin: 2rem;
+
+
+}
+
+#tricks img {
+	width: 13rem;
+	margin-left: 4.1rem;
+	margin-right: 4.1rem;
+	text-align: center;
+
+
+}
+
+.vaults {
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
+
+}
+
+#tricks a {
+	display: block;
+	width:15rem;
+	text-align:center;
+	margin:auto;
+}
+
+.sauts {
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
+  	
+}
+
+.acros {
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
+  	
+}
+
+.videos {
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
+  	
+}
+
+.trait
+    {
+   	clear: both;
+	position: absolute;
+	margin-left: 46rem;
+	height: 26rem;
+	width : 4px;
+	background: black;
+	margin-top: -28rem;
+    }
+
+.inscription {
+	padding-left: 53rem;
+	margin-top:-34rem;
+}
+
+.inscription input{
+	margin: 1rem;
+	width: 13rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!  Medias queries  !!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*Pc */
+@media only screen and (min-width : 1224px){
+/*
+	body {
+		background-color: green;/*je change la couleur pour voir la différence quand je change de résolution
+
+	}
+
+} /*
+
+
+
+/*Tablettes + mobiles*/
+@media (max-width: 768px) {
+
+	#p1 {
+		background-color: yellow;
+	}
+	*{
+		overflow:hidden; /*fonctionne pas sur simulateur de résolution */
+	} 
+
+	body {
+		background-color: yellow;/*je change la couleur pour voir la différence quand je change de résolution
+
+	}
+
+}
+
+/* petit Smartphones  */
+@media (max-width: 321px) {
+
+	*{
+		overflow:hidden; /*fonctionne pas sur simulateur de résolution */
+	}
+
+}
+
+/* Unité dppx implicite */
+@media (-webkit-min-device-pixel-ratio: 2) { 
+
+	#logoiut {
+  	width: 150px;
+  
+}
+
+}
+
+@viewport {
+  width: 8%;
+}
