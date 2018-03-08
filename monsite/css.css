@@ -185,25 +185,18 @@ body{
 		background-color: green; //je change la couleur pour voir la différence quand je change de résolution
 
 	}
-
-	*{
-		overflow:hidden; /*fonctionne pas sur simulateur de résolution */
-	} 
 }
 
 
 /*Tablettes + mobiles*/
 @media (max-width: 768px) {
 
-	#p1 {
-		background-color: yellow;
-	}
 	*{
-		overflow:hidden; /*fonctionne pas sur simulateur de résolution */
+		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
 	} 
 
 	body {
-		background-color: yellow;/*je change la couleur pour voir la différence quand je change de résolution
+		background-color: red;/*je change la couleur pour voir la différence quand je change de résolution
 
 	}
 
@@ -213,7 +206,7 @@ body{
 @media (max-width: 321px) {
 
 	*{
-		overflow:hidden; /*fonctionne pas sur simulateur de résolution */
+		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
 	}
 
 }
