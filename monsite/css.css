@@ -40,8 +40,12 @@
 	display: block;
 	margin-top: -2.7rem;
 	margin-right: 1rem;
+}
 
-
+#header img {
+	width:6rem;
+	margin-left: 4rem;
+	display: block;
 }
 
 h1 {
@@ -50,11 +54,6 @@ h1 {
 	margin-left: 5rem;
 }
 
-#header img {
-	width:6rem;
-	margin-left: 4rem;
-	display: block;
-}
 
 #imgdefond img {
 	height:40rem;
@@ -68,6 +67,7 @@ body{
 	font-size:1rem;
 	background-color: #949595;
 	margin:1rem;
+	padding-bottom: 7rem;
 
 }
 
@@ -123,9 +123,7 @@ body{
   	
 }
 
-.trait
-    {
-   	clear: both;
+.trait {
 	position: absolute;
 	margin-left: 46rem;
 	height: 26rem;
@@ -145,11 +143,17 @@ body{
 }
 
 .footer {
-    position: fixed;
+    position:  fixed;
     width: 100%;
     background-color: black;
     color: white;
     text-align: right;
+    left: 0;
+    bottom: 0;
+}
+
+#headertel{
+	display:none;
 }
 
 
@@ -160,10 +164,62 @@ body{
 !!!  Medias queries  !!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+/* Tablettes*/
+@media (max-width: 1024px) and (min-width:600px) {
 
+	*{
+		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
+	}
 
-/*Tablettes + mobiles*/
-@media (max-width: 768px) {
+	body {
+		background-color: #949595; /*je change la couleur pour voir la différence quand je change de résolution */
+		
+
+	}
+
+	#header img {
+		width:6rem;
+		padding: 0rem;
+		display: block;
+	}
+
+	#header ul {
+	    padding-right: 30rem;	   
+	}
+
+	#header form {
+		margin-right: 12rem;
+	}
+
+	#map {
+		width:33rem;
+	}
+
+	.trait{
+		margin-left: 36rem;
+	}
+
+	.inscription {
+		padding-left: 37rem;
+		margin-top:-34rem;
+	}
+
+	#tricks img {
+		width: 13rem;
+		margin-left: 8.5rem;
+		margin-right: 8.5rem;
+		text-align: center;
+	}
+
+	.inscription input{
+		margin: 1rem;
+		width: 100%;
+	}
+
+}
+
+/* mobiles*/
+@media (max-width: 500px) {
 
 	*{
 		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
@@ -171,7 +227,7 @@ body{
 	} 
 
 	body {
-		background-color: green; /*je change la couleur pour voir la différence quand je change de résolution */
+		background-color: #949595; /*je change la couleur pour voir la différence quand je change de résolution */
 		font-size:1rem;
 		
 
@@ -208,6 +264,11 @@ body{
 		margin-top:0rem;
 	}
 
+	.inscription input{
+	margin: 1rem;
+	width: 100%;
+	}
+
 	.footer {
     position: fixed;
     width: 100%;
@@ -216,24 +277,23 @@ body{
     text-align: right;
 	}
 
-/* petit Smartphones  */
-@media (max-width: 321px) {
-
-	*{
-		overflow-x:hidden; /*fonctionne pas sur simulateur de résolution */
+	#header{
+		display: none;
 	}
 
-}
+	#headertel{
+		position: left;
+		display: block;
+	}
 
-/* Unité dppx implicite */
-@media (-webkit-min-device-pixel-ratio: 2) { 
+	#headertel img {
+		width:4rem;
+		float:left;
+		margin-right: 1.2rem;
+		margin-left: 1.2rem;
+	}
 
-	#logoiut {
-  	width: 150px;
-  
-}
 
-}
 
 @viewport {
   width: 8%;
