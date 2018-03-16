@@ -96,31 +96,44 @@ body{
 }
 
 .bloc {
+	width:25%;
 	display: inline-block;
   	vertical-align: middle;
   	text-align: center;
   	
 }
 
-
-.trait {
-	position: absolute;
-	margin-left: 46rem;
-	height: 26rem;
-	width : 4px;
-	background: black;
-	margin-top: -28rem;
-    }
+#trait {
+	border-right: 2px solid;
+}
 
 .inscription {
-	padding-left: 53rem;
-	margin-top:-34rem;
+	width:40%;
 }
 
 .inscription input{
 	margin: 1rem;
 	width: 13rem;
 }
+
+.map {
+	width: 47%;
+	display: inline-block;
+	height: 480px;
+	vertical-align: top;
+}
+
+.map form {
+	width: 100% ;
+	height: 100%;
+	display:block;
+}
+
+.map input{
+		margin: 0.5rem;
+		width: 100%;
+	}
+
 
 .footer {
     position:  fixed;
@@ -172,16 +185,21 @@ body{
 	}
 
 	#map {
-		width: 49%;
+		width: 100%;
+		display: inline-block;
+  		vertical-align: middle;
+  		text-align: center;
 	}
 
 	.trait{
-		margin-left: 53%;
+		margin-left: 42%;
 	}
 
 	.inscription {
-		padding-left: 58%;
-		margin-top:-56%;
+	width: 50%;
+	display: inline-block;
+  	vertical-align: middle;
+  	text-align: center;
 	}
 
 	#tricks img {
@@ -191,13 +209,16 @@ body{
 		text-align: center;
 	}
 
-	.inscription input{
+	#map input{
 		margin: 1rem;
 		width: 100%;
 	}
 
 	.bloc {
-		width: 49%;
+		width: 50%;
+		display: inline-block;
+  		vertical-align: middle;
+  		text-align: center;
 	}
 
 }
@@ -238,20 +259,25 @@ body{
 
 	}
 
-	.trait
+	#trait
     {
-	   display:none;
+	   border-right: none;
     }
 
-	.inscription {
-		padding-left: 0rem;
-		margin-top:0rem;
-	}
+    .map {
+    	display: inline;
+    	height: 100%;
+    }
 
-	.inscription input{
-	margin: 1rem;
-	width: 100%;
-	}
+    .bloc {
+    	width: 100%;
+    	display: inline-block;
+	  	vertical-align: middle;
+	  	text-align: center;
+    }
+
+
+	
 
 	.footer {
     position: fixed;
