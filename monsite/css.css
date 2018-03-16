@@ -172,28 +172,32 @@ body{
 	}
 
 	#map {
-		width:33rem;
+		width: 49%;
 	}
 
 	.trait{
-		margin-left: 36rem;
+		margin-left: 53%;
 	}
 
 	.inscription {
-		padding-left: 37rem;
-		margin-top:-34rem;
+		padding-left: 58%;
+		margin-top:-56%;
 	}
 
 	#tricks img {
-		width: 13rem;
-		margin-left: 8.5rem;
-		margin-right: 8.5rem;
+		width: 35%;
+		margin-left: 10%;
+		margin-right: 10%;
 		text-align: center;
 	}
 
 	.inscription input{
 		margin: 1rem;
 		width: 100%;
+	}
+
+	.bloc {
+		width: 49%;
 	}
 
 }
