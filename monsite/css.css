@@ -88,13 +88,6 @@ body{
 
 }
 
-.vaults {
-	display: inline-block;
-  	vertical-align: middle;
-  	text-align: center;
-
-}
-
 #tricks a {
 	display: block;
 	width:15rem;
@@ -102,26 +95,13 @@ body{
 	margin:auto;
 }
 
-.sauts {
+.bloc {
 	display: inline-block;
   	vertical-align: middle;
   	text-align: center;
   	
 }
 
-.acros {
-	display: inline-block;
-  	vertical-align: middle;
-  	text-align: center;
-  	
-}
-
-.videos {
-	display: inline-block;
-  	vertical-align: middle;
-  	text-align: center;
-  	
-}
 
 .trait {
 	position: absolute;
